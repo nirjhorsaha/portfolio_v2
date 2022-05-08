@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+}
+
+.banner-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-column {
+    background-color: #ffffff;
+}
+
+#subtitlee {
+    color: #5a5a5a;
+}
+
+#profile {
+    width: 500px;
+    height: 500px;
+}
+
+.social-links {
+    font-size: 30px;
+}
+
+.social-links a {
+    display: inline-block;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.navbar-container {
+    background-color: #302e4d;
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
+
+.about-container {
+    padding-top: 35px;
+    background-color: #f2f2fc;
+}
+
+#nirjhor {
+    color: #007ab3;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    color: #302e4d;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    position: relative;
+}
+
+.section-title h2::before {
+    content: "";
+    height: 4px;
+    width: 50px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.section-title h2::after {
+    content: "";
+    height: 4px;
+    width: 25px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 8px;
+}
+
+#ns {
+    color: #302e4d;
+}
+
+.about-container .skills .skill-item {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.about-container p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#skill {
+    font-size: 40px;
+    color: #302e4d;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    position: relative;
+}
+
+.about-container .skills .skill-item h5 {
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #302e4d;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.about-container .skills .skill-item .progress {
+    background-color: #e3e3e3;
+    height: 10px;
+    border-radius: 4px;
+    width: 100%;
+    position: relative;
+}
+
+.about-container .skills .skill-item {
+    margin-bottom: 30px;
+}
+
+.education-container .box {
+    background-color: #fdf9ff;
+    padding-left: 15px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #d4d4e3;
+    border-radius: 10px;
+    width: 100%;
+    -webkit-box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+    position: relative;
+}
+
+.education-container h2 {
+    padding-top: 40px;
+    font-size: 40px;
+}
+
+.education-container .box .timeline-date {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    color: #4e6870;
+    margin-top: 30px;
+}
+
+.education-container .box .timeline-date .fa {
+    margin-right: 5px;
+}
+
+.education-container .box .timeline-title {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    color: #2e3f4d;
+}
+
+.education-container .box .timeline-text {
+    font-size: 20px;
+    line-height: 25px;
+    color: #504e70;
+    margin-bottom: 10px;
+}
+
+.project-container {
+    background-color: #F2F2FC;
+}
+
+.project-container h2 {
+    padding-top: 40px;
+    font-size: 40px;
+}
+
+.contact-container h2{
+    font-size: 40px;
+}
+
+.inner-form {
+    background-color: #ffffff;
+}
+
+.footer-container {
+    background-color: #d4d4e3;
+}
